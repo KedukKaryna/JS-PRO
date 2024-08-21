@@ -1,0 +1,752 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main_header > nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: #1A1818;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+main {
+    background-color:rgba(26, 1, 1, 0.582);
+    ; 
+    height: 800px;
+    /* width: 1522px; */
+
+}
+
+main > .nav1{
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    margin-left: 161px;
+    top: 20px;
+    position: relative;
+    color: #1A1818;
+    font-family: Roboto;
+    font-weight: 400 ;
+    font-size: 12px;
+}
+
+main > .nav2{
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    justify-content:flex-end;
+    margin-right: 30px;
+    color: #1A1818;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+main > .title{
+    color: white;
+    font-size: 54px;
+    margin-top: 363px;
+    margin-left: 680px;
+    margin-bottom: 407px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+main > .but button {
+    bottom: 353px;
+    position: absolute;
+    left: 850px ; 
+    border-radius: 20px;  
+    background: #A05B4E;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 400;
+    justify-content: center;
+    border: 1;
+    color: white;
+    height: 40px;
+    width: 204px;
+}
+
+main > .main_h h2 {
+    color: #1A1818;
+    font-family: Roboto;
+    font-size: 44px;
+    margin-right: 214px ;
+    margin-left: 30px;
+    margin-top: -80px;
+    margin-bottom: 63px;
+    font-weight: 400;
+}
+
+main > .img img{
+    width: 675px;
+    height: 799px;
+    margin-left: 20px;
+    object-fit: contain;
+}
+
+main > .img h5{
+    margin-left: 34px;
+    margin-top: 5px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818
+}
+
+main > .img h6{
+    margin-left: 471px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: -18px;
+}
+
+main > .img2 img {
+    width: 403px;
+    height: 468px;
+    position: absolute;
+    margin-left: 828px ;
+    margin-top: -825px;
+    object-fit: contain;
+}
+
+main > .img2 h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-left: 846px;
+    margin-top: -345px;
+    
+}
+
+main > .img2 h6 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-left: 1058px;
+    margin-top: -345px;
+}
+
+main > .img3 img {
+    width: 403px;
+    height: 468px;
+    position: absolute;
+    margin-left: 1349px ;
+    margin-top: -825px;
+    object-fit: contain;
+}
+
+main > .img3 h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-left: 1367px;
+    margin-top: -345px;
+}
+
+main > .img3 h6 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-left: 1580px;
+    margin-top: -345px;
+}
+
+main > .img4 img {
+    width: 403px;
+    height: 468px;
+    position: absolute;
+    margin-left: 828px;
+    margin-top: -295px;
+    object-fit: contain;
+}
+
+main > .img4 h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 843px;
+}
+
+main > .img4 h6 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-left: 1060px;
+    margin-top: 185px;
+}
+
+main > .img5 img {
+    width: 403px;
+    height: 468px;
+    position: absolute;
+    margin-left: 1349px ;
+    margin-top: -295px;
+    object-fit: contain;
+}
+
+main > .img5 h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-left: 1364px;
+    margin-top: 185px;
+}
+
+main > .img5 h6 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 1580px;
+    object-fit: contain;
+}
+
+main > .img6 img {
+    width: 380px;
+    height: 460px;
+    position: absolute;
+    margin-left: 843px;
+    margin-top: 230px;
+}
+
+main > .img6 h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 843px;
+}
+
+main > .img6 h6 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 1060px;
+}
+
+main > .img7 img {
+    width: 403px;
+    height: 460px;
+    position: absolute;
+    object-fit: contain;
+    margin-left: 1349px ;
+    margin-top: 230px;
+}
+
+main > .img7 h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 1367px;
+}
+
+main > .img7 h6 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 1580px;
+}
+
+main > .img8 img {
+    width: 433px;
+    height: 475px;
+    position: absolute;
+    object-fit: contain;
+    margin-top: 745px;
+    margin-left: 817px;
+}
+
+main > .img8 h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 1232px;
+    margin-left: 843px;
+}
+
+main > .img8 h6 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 1232px;
+    margin-left: 1060px;
+}
+
+main > .img9 img {
+    width: 425px;
+    height: 471px;
+    position: absolute;
+    object-fit: contain;
+    margin-left: 1340px ;
+    margin-top: 745px;
+}
+
+
+main > .img9 h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 1232px;
+    margin-left: 1367px;
+}
+
+main > .img9 h6 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 1232px;
+    margin-left: 1580px;
+}
+
+main > .img10 img {
+    position: absolute;
+    object-fit: contain;
+    margin-left: 803px ;
+    margin-top: 1350px;
+    width: 980px;
+    height: 1120px;
+}
+
+main > .title2 h3 {
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 1690px;
+    margin-left: 173px;
+}
+
+main > .title2 h4 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 1790px;
+    margin-left: 173px;
+    margin-right: 1327px;
+}
+
+main > .title2 h5 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 1880px;
+    margin-left: 173px;
+    margin-right: 1367px;
+}
+
+main > .title2 button {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    margin-top: 1995px;
+    margin-left: 173px;
+    margin-right: 1367px;
+    border-radius: 30px;  
+    background: #A05B4E;
+    justify-content: center;
+    border: 1;
+    height: 40px;
+    width: 168px;
+
+}
+
+main > .img11 img {
+    position: absolute;
+    object-fit: contain;
+    width: 850px;
+    height: 974px;
+    margin-top: 2550px
+}
+
+main > .img11 h3 {
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 2790px;
+    margin-left: 850px;
+    margin-right: 1000px;
+}
+
+main > .img11 h4 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1A1818;
+    position: absolute;
+    margin-top: 2950px;
+    margin-left: 850px;
+    margin-right: 670px;
+}
+ 
+main > .img11 button {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    border-radius: 30px;  
+    background: #A05B4E;
+    justify-content: center;
+    border: 1;
+    height: 40px;
+    width: 201px;
+    margin-top: 3150px;
+    margin-left: 850px;
+    margin-right: 670px;
+}
+
+main > .img12 img {
+    position: absolute;
+    object-fit: contain;
+    width: 980px;
+    height: 1120px;
+    margin-top: 3590px;
+    margin-left: 830px;
+}
+
+main > .img12 h3 {
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: 400;
+    margin-top: 3930px;
+    position: absolute;
+    margin-left: 35px;
+    margin-right: 1400px;
+}
+
+main > .img12 h4 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 4080px;
+    position: absolute;
+    margin-left: 35px;
+    margin-right: 1470px;
+}
+
+main > .img12 button {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    border-radius: 30px;  
+    background: #A05B4E;
+    justify-content: center;
+    border: 1;
+    height: 40px;
+    width: 201px;
+    margin-left: 35px;
+    margin-right: 1470px;
+    margin-top: 4195px;
+}
+
+main > .img13 img {
+    position: absolute;
+    object-fit: contain;
+    width: 1900px;
+    height: 2114px;
+    margin-top: 4400px;
+}
+
+main > .img13 h3 {
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 4900px;
+    color: white;
+    margin-left: 30px;
+}
+
+main > .img13 h4 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    margin-top: 5020px;
+    margin-right: 1250px;
+    margin-left: 30px;
+}
+
+main > .img13 button {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    margin-top: 5250px;
+    border-radius: 30px;  
+    background: #A05B4E;
+    justify-content: center;
+    border: 1;
+    height: 40px;
+    width: 185px;
+    margin-left: 30px;
+}
+
+main > .title3 h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    color: #1A1818;
+    margin-top: 6130px;
+}
+
+main > .title4 h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    color: #1A1818;
+    margin-top: 6130px;
+    margin-left: 330px;
+}
+
+main > .title5 h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    color: #1A1818;
+    margin-top: 6130px;
+    margin-left: 1070px;
+}
+
+main > .title6 h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    color: #1A1818;
+    margin-top: 6130px;
+    margin-left: 1670px;
+}
+
+main > .img14 img {
+    position: absolute;
+    object-fit: contain;
+    width: 980px;
+    height: 1120px;
+    margin-top: 6200px;
+
+    
+}
+
+main > .img14 h3 {
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    margin-top: 6920px;
+    margin-left: 80px;
+    margin-right: 1360px;
+}
+
+main > .img14 button {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    margin-top: 7160px;
+    border-radius: 30px;  
+    background: #A05B4E;
+    justify-content: center;
+    border: 1;
+    height: 50px;
+    width: 160px;
+    margin-left: 80px;
+}
+
+main > .img15 img {
+    position: absolute;
+    object-fit: contain;
+    width: 980px;
+    height: 1120px;
+    margin-top: 6200px;
+    margin-left: 930px;
+}
+
+main > .img15 h3 {
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    margin-top: 6990px;
+    margin-left: 1023px;
+    margin-right: 500px;
+}
+
+main > .img15 button {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    margin-top: 7160px;
+    border-radius: 30px;  
+    background: #A05B4E;
+    justify-content: center;
+    border: 1;
+    height: 50px;
+    width: 200px;
+    margin-left: 1023px;
+}
+
+
+
+footer {
+    background-color:#A05B4E;
+    width: 1900px;
+    height: 658px;
+    margin-top: 8450px ;
+}
+   
+footer > .title7 h6 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    color: #F1F1DE80;
+    margin-top: 221px;
+    margin-left: 953px;
+}
+
+footer > .title8 h6 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    color: #F1F1DE80;
+    margin-top: 239px;
+    margin-left: 877px;
+}
+
+footer > .title9 h6 {
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 400;
+    position: absolute;
+    color: #F1F1DE80;
+    margin-top: 257px;
+    margin-left: 895px ;
+}
+
+footer > .title10 h4 {
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 400;
+    position: absolute;
+    color: #F1F1DE80;
+    margin-top: 322px;
+    margin-left: 740px;
+    margin-right: 650px;
+}
+
+footer > .title11  h6{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    color: #F1F1DE80;
+    margin-top: 603px;
+    margin-left: 30px;
+}
+
+footer > .title12 h6 {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    color: #F1F1DE80;
+    margin-top: 603px;
+    margin-left: 900px;
+
+}
+
+footer > .title13 h6 {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    position: absolute;
+    color: #F1F1DE80;
+    margin-left: 1754px;
+    margin-top: 603px;
+
+}
+
+footer > .hr1 hr {
+    border: none;
+    background-color: #F1F1DE; 
+    color: #F1F1DE;
+    height: 2px; 
+    width: 1790px;
+    position: absolute;
+    margin-top: 561.5px;
+    margin-left: 50px;
+
+
+}
+
