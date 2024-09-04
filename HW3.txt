@@ -1,0 +1,17 @@
+// 1. заменить в массиве элементы: вместо строк 'simple', 'and', 'lowercased',
+//  теперь должна быть строка 'tiny'.
+
+const strings = ['this', 'is', 'an', 'array', 'of', 'simple', 'and', 'lowercased','strings'];
+strings.splice(5,3,'tiny');
+console.log(strings);
+
+
+// 2. вставить в массив чисел числа 121, 144 на позицию 5.
+const numbers = [1,2,3,5,7,11,13,17];
+numbers.splice(5,0,121,144)
+console.log(numbers);
+
+// 3. удалить из массива strings 3 элемента, начиная с 3-й позиции
+const strings = ['this', 'is', 'an', 'array', 'of', 'simple', 'and', 'lowercased','strings'];
+strings.splice(3,3);
+console.log(strings);
